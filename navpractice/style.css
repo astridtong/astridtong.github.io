@@ -1,0 +1,85 @@
+
+body, html {
+  height:91.5vh;
+  margin: 0;
+  padding:0;
+  background-color: black;
+  font-family: aktiv-grotesk, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+.outer{
+   text-align: center;
+   padding:0px;
+
+}
+
+.page{
+   font-size:18px;
+   font-weight: 400;
+   color:silver;
+   width:800px;
+   height:auto;
+   line-height: 1.8;
+   display: inline-block;
+   text-align:left;
+   text-transform: none;
+   letter-spacing: 0.05em;
+   margin-top:5%;
+
+
+}
+.pageheader{
+   font-size:30px;
+   font-weight: 600;
+   color:white;
+   width:800px;
+   height:auto;
+   line-height: 0;
+   display: inline-block;
+   text-align:left;
+   text-transform: uppercase;
+   letter-spacing: 0.1em;
+}
+
+a:link{
+  color:white;
+  font-size:16px;
+  font-weight: 600;
+  text-decoration: none;
+  margin-right:50px;
+  position:relative;
+  display:inline-block;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: orangered;
+}
+
+a:active {
+  color: orangered;
+}
+
+.nav{
+   text-transform: uppercase;
+   letter-spacing: 0.1em;
+   margin-left:30px;
+   margin-top:25px;
+   text-align: center;
+   padding-bottom: 0px;
+   line-height: 2;
+}
+
+.bg {
+  background-image: url("img/bg.jpg");
+  height: 100%;
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
