@@ -1,0 +1,234 @@
+
+body{
+  background-color: #000;
+  font-family: "poppins", sans-serif;
+  color: #FFF;
+  margin: 0;
+  padding:0;
+}
+
+.index_outer{
+  text-align: center;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.outer{
+  text-align: center;
+  background: rgba(0, 0, 0, 1);
+}
+
+.page{
+  background-color: transparent;
+  width:100%;
+  height:100vh;
+  margin-top: 0px;
+  display: inline-block;
+}
+
+#menu{
+  display:none;
+}
+
+#menu img{
+  width: 30px;
+  padding-top: 5px;
+  padding-right: 15px;
+  cursor: pointer;
+}
+
+#menuoverlay{
+  position: absolute;
+  background-color: black;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 98vh;
+  text-align: center;
+  display:none;
+
+}
+
+#close{
+  position:absolute;
+  right: 40px;
+  top:15px;
+  font-size: 45px;
+  cursor: pointer;
+}
+
+.innermenu{
+  margin-top: 100px;
+}
+
+.innermenu div{
+  padding-bottom: 30px;
+}
+
+.nav{
+display:inline-block;
+}
+
+.nav_host{
+display:inline-block;
+}
+
+.navbar{
+display:inline-block;
+}
+
+@media screen and (max-width: 920px){
+
+  .navbar{display:none;}
+  .nav{display:none;}
+
+}
+
+@media screen and (max-width: 768px){
+
+  .page{max-width:450px;}
+  #menu{display:inline-block;}
+  .navbar{display:none;}
+  .nav_host{display:none;}
+  .access{display:none;}
+  .account{display:none;}
+  .index_content{max-width:450px;}
+}
+
+.topofpage{
+  background-color: transparent;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: flex-start;
+  height:100px;
+
+}
+
+.navbar{
+  background-color: transparent;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content:flex-end;
+  flex-grow:1;
+  text-align: left;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.logo{
+  max-width: 205px;
+  background-color: transparent;
+  text-align:left;
+}
+
+.logo a:hover {
+  border-bottom: 0;
+}
+
+.logo_img{
+  margin-top: 10px;
+  margin-left: 40px;
+  width:205px;
+  border:0;
+}
+
+.access{
+  align-content: flex-end;
+  margin-left: auto;
+  max-width: 20px;
+  background-color: transparent;
+  text-align: right;
+  padding-right: 20px;
+  padding-top: 10px;
+}
+
+.access a:hover {
+  border-bottom: 0;
+}
+
+.access_img{
+  width:85%;
+  border-bottom:0px transparent;
+}
+
+.account{
+  align-content: flex-end;
+  margin-left: auto;
+  max-width: 100px;
+  background-color: transparent;
+  text-align: right;
+  padding-right: 25px;
+  padding-top: 10px;
+}
+
+.account a:hover {
+  border-bottom: 0;
+}
+
+.account_img{
+  width:100px;
+  border-bottom:0px transparent;
+}
+
+.index_content{
+  background-color: transparent;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: left;
+  line-height: 1.7;
+  padding-top: 15vh;
+  padding-left: 8vw;
+  width:500px;
+}
+
+.page_content{
+  background-color: transparent;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: left;
+  padding-top: 18vh;
+  padding-left: 10vw;
+  width:80vw;
+  line-height: 1.7;
+
+}
+
+h1{
+  font-weight: 700;
+  font-size: 5.5vw;
+  line-height: 1.1;
+
+}
+
+h2{
+  font-weight: 600;
+  font-size: 34px;;
+  line-height: 1.5;
+  display:block;
+  margin-right: 15px;
+
+}
+
+a{
+  color: #FFF;
+  font-size: 16px;
+  text-decoration: none;
+  margin-right:  25px;
+}
+
+a:hover{
+  border-bottom: 2px solid;
+}
+
+
+.bg {
+  background-image: url("img/stella.jpeg");
+  height: 100%;
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
