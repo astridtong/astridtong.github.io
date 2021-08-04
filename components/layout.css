@@ -1,0 +1,269 @@
+
+body{
+  background-color: #000;
+  font-family: "poppins", sans-serif;
+  font-size: 18px;
+  color: #FFF;
+  margin: 0;
+  padding:0;
+}
+
+/* TEXT DECORATION */
+
+h1{
+  font-weight: 700;
+  font-size: 5.5vw;
+  line-height: 1.2;
+
+}
+
+h2{
+  font-weight: 300;
+  font-size: 1.6em;;
+  line-height: 1.5;
+  display:inline-block;
+}
+
+h3{
+  font-weight: 300;
+  font-size: 1.1em;;
+  line-height: 1.5;
+  display:block;
+}
+
+h4{
+  font-weight: 400;
+  font-size: 1em;;
+  line-height: 1.5;
+  display:inline-block;
+
+}
+
+h5{
+  font-weight: 400;
+  font-size: 0.85em;;
+  line-height: 1.5;
+  display:inline-block;
+
+}
+
+a{
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  margin-right:  25px;
+}
+
+a:hover{
+  border-bottom: 2px solid;
+}
+
+.highlight{
+  font-weight: 600;
+  margin-right: 5px;
+}
+
+.center{
+  padding: 5vh 0;
+}
+
+.divider{
+  border-right: 1px solid gray;
+  display:inline-block;
+}
+
+.icon{
+  height: 42px;
+  max-width: 50px;
+  padding-bottom: 0px;
+  padding-right: 20px;
+
+}
+
+
+/* INDEX PAGE CONTENT */
+
+.bg {
+  background-image: url("img/stella.jpeg");
+  height: 100vh;
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.index_outer{
+  text-align: center;
+  background: rgba(0, 0, 0, 0.2);
+  height: 100vh;
+}
+
+.page{
+  background-color: transparent;
+  width:100%;
+  height:100vh;
+  margin-top: 0px;
+  display: inline-block;
+}
+
+.index_content{
+  background-color: transparent;
+  font-weight: 400;
+  text-align: left;
+  line-height: 1.7;
+  margin-top: 20vh;
+  width: 450px;
+  height:55vh;
+}
+
+/* NAVBAR */
+
+#menu{
+  display:none;
+}
+
+#menu img{
+  width: 30px;
+  padding-top: 8px;
+  padding-right: 15px;
+  cursor: pointer;
+}
+
+#menuoverlay{
+  position: absolute;
+  background-color: black;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 98vh;
+  text-align: center;
+  display:none;
+
+}
+
+#close{
+  position:absolute;
+  right: 40px;
+  top:20px;
+  font-size: 45px;
+  cursor: pointer;
+}
+
+.innermenu{
+  margin-top: 100px;
+}
+
+.innermenu div{
+  padding-bottom: 30px;
+}
+
+.nav{
+display:inline-block;
+}
+
+.nav_host{
+display:inline-block;
+}
+
+.navbar{
+display:inline-block;
+}
+
+@media screen and (max-width: 925px){
+
+  .navbar{display:none;}
+  .nav{display:none;}
+  .divider{display: none;}
+
+}
+
+@media screen and (max-width: 768px){
+
+  #menu{display:inline-block;}
+  .navbar{display:none;}
+  .nav_host{display:none;}
+  .access{display:none;}
+  .account{display:none;}
+  .index_content{max-width:450px;}
+  .row [class^="col"] {min-width: 100%;}
+  .divider{border-right: 0px;}
+}
+
+.topofpage{
+  background-color: transparent;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: flex-start;
+  height:100px;
+
+}
+
+.navbar{
+  background-color: transparent;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content:flex-end;
+  flex-grow:1;
+  text-align: left;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.logo{
+  max-width: 205px;
+  background-color: transparent;
+  text-align:left;
+}
+
+.logo a:hover {
+  border-bottom: 0;
+}
+
+.logo_img{
+  margin-top: 10px;
+  margin-left: 40px;
+  width:205px;
+  border:0;
+}
+
+.access{
+  align-content: flex-end;
+  margin-left: auto;
+  max-width: 20px;
+  background-color: transparent;
+  text-align: right;
+  padding-right: 20px;
+  padding-top: 10px;
+}
+
+.access a:hover {
+  border-bottom: 0;
+}
+
+.access_img{
+  width:85%;
+  border-bottom:0px transparent;
+}
+
+.account{
+  align-content: flex-end;
+  margin-left: auto;
+  max-width: 100px;
+  background-color: transparent;
+  text-align: right;
+  padding-right: 25px;
+  padding-top: 10px;
+}
+
+.account a:hover {
+  border-bottom: 0;
+}
+
+.account_img{
+  width:100px;
+  border-bottom:0px transparent;
+}
