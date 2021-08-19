@@ -50,8 +50,7 @@ h5{
   font-weight: 400;
   font-size: 0.9em;;
   line-height: 1.5;
-  margin-top: 20px;
-
+  margin-top: 10px;
   display:inline-block;
 
 }
@@ -59,16 +58,14 @@ h5{
 h6{
   font-weight: 400;
   font-size: 0.9em;;
-  line-height: 1.5;
+  line-height: 1.4;
   display:block;
-  margin-bottom: 20px;
-
+  padding-bottom: 10px;
 }
 
 a{
   color: #FFF;
   text-decoration: none;
-  margin-right:  0px;
 }
 
 a:hover{
@@ -84,7 +81,7 @@ a:hover{
   width: 100%;
   height: 100%;
 	border: 1px solid white;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 	overflow: hidden;
 }
 
@@ -126,16 +123,15 @@ a:hover{
 }
 
 .index_outer{
-  text-align: center;
-
+  align-items: left;
   height: 100vh;
+  margin-left: 60px;
+  margin-right: 60px;
 }
 
 .page{
   background-color: transparent;
-  width:100%;
   height:100vh;
-  margin-top: 0px;
   display: inline-block;
 }
 
@@ -144,8 +140,7 @@ a:hover{
   font-weight: 400;
   text-align: left;
   line-height: 1.5;
-  margin-top: 18vh;
-  margin-left: 75px;
+  margin-top: 12vh;
   max-width: 450px;
   height:auto;
 }
@@ -261,7 +256,7 @@ display:inline-block;
 }
 
 .logo_img{
-  margin-top: 10px;
+  margin-top: 7px;
   margin-left: 40px;
   width:205px;
   border:0;
@@ -311,12 +306,12 @@ display:inline-block;
   background-color: transparent;
   display:flex;
   flex-direction: row;
-  flex-wrap: nowrap;
+
   align-items: left;
   justify-content:flex-start;
   flex-grow:1;
   text-align: left;
-  margin-left: 75px;
+  margin-left: 0px;
   padding-bottom: 150px;
   font-weight: 400;
   font-size: 18px;

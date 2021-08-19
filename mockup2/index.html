@@ -16,62 +16,76 @@
   <link rel="stylesheet" type="text/css" href="layout.css">
   <link rel="stylesheet" type="text/css" href="grid.css">
   <script type="text/javascript" src="scripts.js"></script>
+
 </head>
 <body>
 
 <!-- BEGIN MENU SECTION -->
 
 <div class="bg">
-  <div class="index_outer">
-    <div class="page">
-      <div class ="topofpage">
+  <div class ="topofpage col-12">
 
-        <div class="logo"><a href="index.html"><img src="img/logo.png" alt="Airbnb Logo" class="logo_img"/></a></div>
+    <div class="logo"><a href="index.html"><img src="img/logo.png" alt="Airbnb Logo" class="logo_img"/></a></div>
 
-        <div class="navbar">
-          <div class="nav"><a href="stories.html">Featured</a></div>
-          <div class="nav"><a href="nominate.html">Nominate</a></div>
-          <div class="nav"><a href="reserve.html">Reserve</a></div>
-          <div class="nav"><a href="host.html">Become a host</a></div>
+    <div class="navbar">
+      <div class="nav"><a href="stories.html">Featured Experiences</a></div>
+      <div class="nav"><a href="reserve.html">Book</a></div>
+      <div class="nav"><a href="nominate.html">Nominate</a></div>
+      <div class="nav"><a href="host.html">Become a host</a></div>
+    </div>
+
+    <!-- BEGIN HAMBURGER MENU -->
+
+    <div id="menu" onclick="showmenu()"><img src="img/menu.png" alt="Menu"/></div>
+
+    <div id="menuoverlay">
+      <div id="close" onclick="hidemenu()">&times;</div>
+        <div class="innermenu">
+          <div class="menuitems"><a href="index.html">Home</a></div>
+          <div class="menuitems"><a href="stories.html">Featured Experiences</a></div>
+          <div class="menuitems"><a href="reserve.html">Book</a></div>
+          <div class="menuitems"><a href="nominate.html">Nominate</a></div>
+          <div class="menuitems"><a href="host.html">Become a host</a></div>
         </div>
-
-        <!-- BEGIN HAMBURGER MENU -->
-
-        <div id="menu" onclick="showmenu()"><img src="img/menu.png" alt="Menu"/></div>
-
-        <div id="menuoverlay">
-          <div id="close" onclick="hidemenu()">&times;</div>
-            <div class="innermenu">
-              <div class="menuitems"><a href="index.html">Home</a></div>
-              <div class="menuitems"><a href="stories.html">Featured</a></div>
-              <div class="menuitems"><a href="nominate.html">Nominate</a></div>
-              <div class="menuitems"><a href="reserve.html">Reserve</a></div>
-              <div class="menuitems"><a href="host.html">Become a host</a></div>
-            </div>
-          </div>
-
-        <!-- END HAMBURGER MENU -->
-
-        <div class="access"><a href="access.html"><img src="img/globe.png" alt="Accessibility" class="access_img"/></a></div>
-        <div class="account"><a href="account.html"><img src="img/account.png" alt="Account" class="account_img"/></a></div>
       </div>
 
-        <!-- END MENU SECTION -->
+    <!-- END HAMBURGER MENU -->
+
+    <div class="access"><a href="access.html"><img src="img/globe.png" alt="Accessibility" class="access_img"/></a></div>
+    <div class="account"><a href="account.html"><img src="img/account.png" alt="Account" class="account_img"/></a></div>
+
+  </div>
+
+<!-- END MENU SECTION -->
+
+
+
+<!-- END MENU SECTION -->
+
+
+  <div class="index_outer">
+    <div class="page">
 
         <!-- BEGIN HERO SECTION -->
-
+        <div class="row">
+          <div class="col-12">
           <div class="index_content">
             <h1>Truffles.<br> Truffles.</h1><br>
             <h4>Follow Stella and her owner Massimo on a <i>tartufaia</i> -Italian for truffle hunt, through the forests of Mugello, Tuscany.
             Stella has been outfitted with a GoPro harness to capture the main action from the forest floor.</h4>
-          </div>
 
-          <div class="buttons">
-            <button id="button1" class="a_box"><span>Preview ❯</span></button>
-            <button id="button2" class="a_box"><span>&#x25B6;</span></button>
-            <button id="button2" class="a_box"><span>&#65291;</span></button>
+            <div class="buttons">
+              <button id="button1" class="a_box"><span>Preview ❯</span></button>
+              <button id="button2" class="a_box"><span>&#x25B6;</span></button>
+              <button id="button2" class="a_box"><span>&#65291;</span></button>
+            </div>
 
           </div>
+        </div>
+
+   </div>
+ </div>
+
 
           <!-- END HERO SECTION -->
 
@@ -97,15 +111,15 @@
             </div>
             <div class="col-2">
               <img class ="icon" src="img/icon1.png" alt="Icon with screen"/>
-              <h6><span class ="highlight">Monthly Features</span><br>Keep up with our ever expanding cast of hosts.</h6></br>
+              <h6><span class ="highlight">Monthly Features</span></h6><h6>Keep up with our ever expanding cast of hosts.</h6></br>
             </div>
             <div class="col-2">
               <img class ="icon" src="img/icon2.png" alt="Icon with group"/>
-              <h6><span class ="highlight">Nominate a host</span><br>Vote or write-in for our next featured experience.</h6></br>
+              <h6><span class ="highlight">Nominate a host</span></h6><h6>Vote or write-in for our next featured experience.</h6></br>
             </div>
-            <div class="col-3">
+            <div class="col-2">
               <img class ="icon" src="img/icon3.png" alt="Icon with passport"/>
-              <h6><span class ="highlight">Book a live tour</span><br>Inspired by one of our featured experiences? Book a virtual or in-person tour at the ease of your fingertips.</h6></br>
+              <h6><span class ="highlight">Book your remote trip</span></h6><h6>Reserve virtual or in-person tours at the ease of your fingertips.</h6>
             </div>
           </div>
 
@@ -128,7 +142,7 @@
               </div><br>
                 <h2><p><a href=""><span class ="highlight">Rewilding the kitchen.</span>
                 Follow food stylist & creative director Mallory Lance on an earth-focused tasting experience.</a></p></h2>
-              </br><h5><a href="">Preview</a> | <a href="">Reserve</a> | <a href="">Share</a></h5>
+              </br><h5><a href="">Preview</a> | <a href="">Book</a> | <a href="">Share</a></h5>
             </div>
 
             <div class="col-6">
@@ -137,7 +151,7 @@
               </div><br>
               <h2><p><a href=""><span class ="highlight">Philosophy of Tsumugi.</span>
                 Discover a world of color through the eyes of 2014 Kyoto Prize Winner, Fukumi Shimura. </a></p></h2>
-              </br><h5><a href="">Preview</a> | <a href="">Reserve</a> | <a href="">Share</a></h5>
+              </br><h5><a href="">Preview</a> | <a href="">Book</a> | <a href="">Share</a></h5>
             </div>
           </div>
 
@@ -182,9 +196,7 @@
         </div>
       </div>
 
-    </div>
-  </div>
-</div>
+
 
 </body>
 </html>

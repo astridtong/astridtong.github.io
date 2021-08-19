@@ -16,14 +16,14 @@
   width: 100%;
   height: auto;
   text-align: left;
-  padding-left: 50px;
-  padding-right: 50px;
+
+
 
 }
 
 .row [class^="col"] {
   float: left;
-  margin: 3% 0%;
+  margin: 4% 0%;
   min-height: 0.125rem;
   height:100%;
   display: flex;
@@ -34,64 +34,64 @@
 
 .col-1 {
     width: 8.33%;
-    background: rgba(102,51,153,.1);
+    background: transparent;
   }
 
   .col-2 {
-    width: 16.66%;
-    background: rgba(102,51,153,.2);
+    width: 19%;
+    background: transparent;
   }
 
   .col-3 {
     width: 25%;
-    background: rgba(102,51,153,.3);
+    background: transparent;
   }
 
   .col-4 {
     width: 33.33%;
-    background: rgba(102,51,153,.4);
+    background: transparent;
   }
 
   .col-5 {
     width: 41.67%;
-    background: rgba(102,51,153,.5);
+    background: transparent;
   }
 
   .col-6 {
     width: 50%;
-    background: rgba(102,51,153,.5);
+    background: transparent;
 
   }
 
 
   .col-7 {
     width: 58.33%;
-    background: rgba(102,51,153,.57);
+    background: transparent;
   }
 
   .col-8 {
     width: 66.67%;
-    background: rgba(102,51,153,.64);
+    background: transparent;
   }
 
   .col-9 {
     width: 75%;
-    background: rgba(102,51,153,.75);
+    background: transparent;
   }
 
   .col-10 {
     width: 83.33%;
-    background: rgba(102,51,153,.82);
+    background: transparent;
   }
 
   .col-11 {
     width: 91.67%;
-    background: rgba(102,51,153,.89);
+    background: transparent;
   }
 
   .col-12 {
     width: 100%;
-    background: rgba(102,51,153,1);
+    background: transparent;
   }
 
 /* This is clearfix, clearing content after each row*/
@@ -108,11 +108,9 @@ div [class^="col"] {
 
 /* gutter width on all col except the last */
 div [class^="col"] {
-   background: rgba(102,51,153,0);
+   background: transparent;
    padding-left: 25px;
    padding-right: 25px;
-
-
 }
 
 .row [class^="col"] img{
@@ -127,5 +125,4 @@ div [class^="col"] {
 div [class^="col"]:last-of-type {
   padding-left: 25px;
   padding-right: 25px;
-  padding-bottom: 20px;
 }
