@@ -12,13 +12,10 @@
 }
 
 .row {
-  position: relative;
+
   width: 100%;
   height: auto;
   text-align: left;
-
-
-
 }
 
 .row [class^="col"] {
