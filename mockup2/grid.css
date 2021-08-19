@@ -8,14 +8,16 @@
 .container {
   width: 96%;
   margin:auto;
-
+  padding-left: 60px;
+  padding-right: 60px;
 }
 
 .row {
-
   width: 100%;
   height: auto;
   text-align: left;
+  padding-left: 60px;
+  padding-right: 60px;
 }
 
 .row [class^="col"] {

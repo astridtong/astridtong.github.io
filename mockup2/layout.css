@@ -125,8 +125,7 @@ a:hover{
 .index_outer{
   align-items: left;
   height: 100vh;
-  margin-left: 60px;
-  margin-right: 60px;
+
 }
 
 .page{
@@ -136,11 +135,11 @@ a:hover{
 }
 
 .index_content{
-
   font-weight: 400;
   text-align: left;
   line-height: 1.5;
   margin-top: 12vh;
+  padding-left: 80px;
   max-width: 450px;
   height:auto;
 }
