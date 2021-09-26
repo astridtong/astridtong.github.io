@@ -117,6 +117,11 @@ a:hover{
   display:inline-block;
 }
 
+.divider2{
+  border-left: 1px solid white;
+  display:inline-block;
+}
+
 .icon{
 
   max-width: 53px;
@@ -184,162 +189,19 @@ a:hover{
   height:auto;
 }
 
-/* NAVBAR */
-
-#menu{
-  display:none;
-  background-color: black;
-}
-
-#menu img{
-  width: 28px;
-  padding-top: 8px;
-  margin-right: 35px;
-  cursor: pointer;
-}
-
-#menuoverlay{
-  position: fixed;
-  background-color: black;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 98vh;
-  text-align: left;
-  padding-left: 70px;
-  display:none;
-
-}
-
-#close{
-  position:absolute;
-  right: 40px;
-  top:20px;
-  font-size: 45px;
-  cursor: pointer;
-}
-
-.innermenu{
-  margin-top: 100px;
-  background-color: black;
-}
-
-.innermenu div{
-  padding-bottom: 30px;
-  background-color: black;
-}
-
-.nav{
-  font-size: 16px;
-  display:inline-block;
-  margin-right: 25px;
-}
-
-.nav_host{
-display:inline-block;
-}
-
-.navbar{
-display:inline-block;
-}
-
 @media screen and (max-width: 925px){
 
-  .navbar{display:none;}
-  .nav{display:none;}
   .divider{display: none;}
+  .divider2{display: none;}
 
 }
 
 @media screen and (max-width: 768px){
 
-  #menu{display:inline-block;}
-  .navbar{display:none;}
-  .nav_host{display:none;}
-  .access{display:none;}
-  .account{display:none;}
   .index_content{max-width:370px;}
   .row [class^="col"] {min-width: 100%;}
   .divider{border-right: 0px;}
-}
-
-.topofpage{
-  background-color: transparent;
-  display:flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  align-items: center;
-  justify-content: flex-start;
-  height:80px;
-
-}
-
-.navbar{
-  background-color: transparent;
-  display:flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  align-items: center;
-  justify-content:flex-end;
-  flex-grow:1;
-  text-align: left;
-  font-weight: 400;
-  font-size: 18px;
-}
-
-.logo{
-  max-width: 205px;
-  background-color: transparent;
-  text-align:left;
-}
-
-.logo a:hover {
-  border-bottom: 0;
-}
-
-.logo_img{
-  margin-top: 7px;
-  margin-left: 40px;
-  width:205px;
-  border:0;
-}
-
-.access{
-  align-content: flex-end;
-  margin-left: auto;
-  max-width: 43px;
-  background-color: transparent;
-  text-align: right;
-  padding-right: 20px;
-  padding-top: 8px;
-}
-
-.access a:hover {
-  border-bottom: 0;
-}
-
-.access_img{
-  width:85%;
-  border-bottom:0px transparent;
-}
-
-.account{
-  align-content: flex-end;
-  margin-left: auto;
-  max-width: 100px;
-  background-color: transparent;
-  text-align: right;
-  padding-right: 130px;
-  padding-top: 10px;
-}
-
-.account a:hover {
-  border-bottom: 0;
-}
-
-.account_img{
-  width:95px;
-  border-bottom:0px transparent;
+  .divider2{border-right: 0px;}
 }
 
 
@@ -383,8 +245,8 @@ display:inline-block;
   font-size: 18px;
   text-align: left;
   padding-left: 17vh;
-  margin-top: 10vh;
-  margin-bottom: 10vh;
+  margin-top: 9vh;
+  margin-bottom: 9vh;
   width:auto;
 	height:60%;
 	display:block;
