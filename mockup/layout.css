@@ -15,7 +15,7 @@ body{
 
 .border{
 border-left: 4px solid white;
-height: 950vh;
+height: 900vh;
 position:absolute;
 left: 5.1em;
 }
@@ -68,8 +68,9 @@ h4{
 h5{
   font-weight: 300;
   font-family: abel, sans-serif;
-  font-size: 7.5vw;
+  font-size: 7vw;
   line-height: 1em;
+  padding-top: 1rem;
   display:block;
 
 }
@@ -98,11 +99,6 @@ h8{
   font-size: 1.2rem;;
   line-height: 1.5;
   display:block;
-}
-
-img {
-  -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(0%);
 }
 
 
@@ -155,12 +151,12 @@ a:hover{
   background-size: cover;
   background-color: black;
   background-image: -webkit-linear-gradient(top,
-    rgba(0,0,0,0.1) 20%,
+    rgba(0,0,0,0.2) 20%,
     rgba(0,0,0,0.3) 20%,
     rgba(0,0,0,0.7) 80%,
     rgba(0,0,0,0.9) 100%
    ),
-   url("img/SequoiaRoots122_800x.jpeg");
+   url("img/sequoiaroots.jpeg");
 
 }
 
@@ -219,7 +215,7 @@ a:hover{
   .index_content{max-width:370px;}
   .row [class^="col"] {min-width: 100%;}
   .divider{border-right: 0px;}
-  .divider2{border-right: 0px;}
+  .divider2{border-left: 0px;}
 }
 
 
@@ -234,7 +230,7 @@ a:hover{
 .page1{
 	font-weight: 400;
   text-align: left;
-  padding-top: 15vh;
+  padding-top: 17vh;
   padding-left: 8vw;
 	padding-right: 8vw;
   width:auto;
